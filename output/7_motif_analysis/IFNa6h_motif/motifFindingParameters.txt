@@ -1,0 +1,1 @@
+cmd = /home/abhi39/Projects/CHIPseq/output/4_peak_calling/output/differential_binding/unique_IFNa6h.bed hg38 /home/abhi39/Projects/CHIPseq/output/7_motif_analysis/IFNa6h_motif -size 200 -len 8,10,12,15 -mis 1 -p 4 -bg /home/abhi39/Projects/CHIPseq/output/7_motif_analysis/background_IFNa6h.bed

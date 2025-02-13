@@ -1,0 +1,37 @@
+INFO  @ Fri, 31 Jan 2025 13:21:22: 
+# Command line: callpeak -t /home/abhi39/Projects/CHIPseq/output/3_alignment/aligned_bam/SRR502327.sorted.bam -c SRR502327 -f BAM -g hs -n /home/abhi39/Projects/CHIPseq/output/3_alignment/aligned_bam/SRR502225.sorted.bam --outdir /home/abhi39/Projects/CHIPseq/output/4_peak_calling/output --nomodel --shift 0 -q 0.01
+# ARGUMENTS LIST:
+# name = /home/abhi39/Projects/CHIPseq/output/3_alignment/aligned_bam/SRR502225.sorted.bam
+# format = BAM
+# ChIP-seq file = ['/home/abhi39/Projects/CHIPseq/output/3_alignment/aligned_bam/SRR502327.sorted.bam']
+# control file = ['SRR502327']
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 1.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is off
+ 
+INFO  @ Fri, 31 Jan 2025 13:21:22: #1 read tag files... 
+INFO  @ Fri, 31 Jan 2025 13:21:22: #1 read treatment tags... 
+INFO  @ Fri, 31 Jan 2025 13:21:28: 0 reads have been read. 
+INFO  @ Fri, 31 Jan 2025 13:21:28: #1.2 read input tags... 
+Traceback (most recent call last):
+  File "/home/abhi39/miniconda3/envs/macs2_env/bin/macs2", line 653, in <module>
+    main()
+  File "/home/abhi39/miniconda3/envs/macs2_env/bin/macs2", line 51, in main
+    run( args )
+  File "/home/abhi39/miniconda3/envs/macs2_env/lib/python3.9/site-packages/MACS2/callpeak_cmd.py", line 65, in run
+    else:       (treat, control) = load_tag_files_options  (options)
+  File "/home/abhi39/miniconda3/envs/macs2_env/lib/python3.9/site-packages/MACS2/callpeak_cmd.py", line 403, in load_tag_files_options
+    control = options.parser(options.cfile[0], buffer_size=options.buffer_size).build_fwtrack()
+  File "MACS2/IO/Parser.pyx", line 1063, in MACS2.IO.Parser.BAMParser.__init__
+  File "/home/abhi39/miniconda3/envs/macs2_env/lib/python3.9/gzip.py", line 58, in open
+    binary_file = GzipFile(filename, gz_mode, compresslevel)
+  File "/home/abhi39/miniconda3/envs/macs2_env/lib/python3.9/gzip.py", line 173, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'SRR502327'

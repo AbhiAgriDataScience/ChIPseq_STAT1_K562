@@ -1,0 +1,14 @@
+biopython
+pandas
+matplotlib
+seaborn
+numpy
+scipy
+bedtools
+macs2
+cutadapt
+samtools
+bowtie2
+picard
+homer
+bedGraphToBigWig

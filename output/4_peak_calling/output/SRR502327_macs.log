@@ -1,0 +1,81 @@
+INFO  @ Fri, 31 Jan 2025 16:02:23: 
+# Command line: callpeak -t /home/abhi39/Projects/CHIPseq/output/3_alignment/aligned_bam/SRR502327.sorted.bam -c /home/abhi39/Projects/CHIPseq/output/3_alignment/aligned_bam/SRR502225.sorted.bam -f BAM -g hs -n SRR502327 --outdir /home/abhi39/Projects/CHIPseq/output/4_peak_calling/output --nomodel --shift 0 -q 0.01 --bdg
+# ARGUMENTS LIST:
+# name = SRR502327
+# format = BAM
+# ChIP-seq file = ['/home/abhi39/Projects/CHIPseq/output/3_alignment/aligned_bam/SRR502327.sorted.bam']
+# control file = ['/home/abhi39/Projects/CHIPseq/output/3_alignment/aligned_bam/SRR502225.sorted.bam']
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 1.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is off
+ 
+INFO  @ Fri, 31 Jan 2025 16:02:23: #1 read tag files... 
+INFO  @ Fri, 31 Jan 2025 16:02:23: #1 read treatment tags... 
+INFO  @ Fri, 31 Jan 2025 16:02:23:  1000000 
+INFO  @ Fri, 31 Jan 2025 16:02:24:  2000000 
+INFO  @ Fri, 31 Jan 2025 16:02:25:  3000000 
+INFO  @ Fri, 31 Jan 2025 16:02:25:  4000000 
+INFO  @ Fri, 31 Jan 2025 16:02:26:  5000000 
+INFO  @ Fri, 31 Jan 2025 16:02:27:  6000000 
+INFO  @ Fri, 31 Jan 2025 16:02:27:  7000000 
+INFO  @ Fri, 31 Jan 2025 16:02:28:  8000000 
+INFO  @ Fri, 31 Jan 2025 16:02:29:  9000000 
+INFO  @ Fri, 31 Jan 2025 16:02:29:  10000000 
+INFO  @ Fri, 31 Jan 2025 16:02:30:  11000000 
+INFO  @ Fri, 31 Jan 2025 16:02:32: 11605038 reads have been read. 
+INFO  @ Fri, 31 Jan 2025 16:02:32: #1.2 read input tags... 
+INFO  @ Fri, 31 Jan 2025 16:02:33:  1000000 
+INFO  @ Fri, 31 Jan 2025 16:02:34:  2000000 
+INFO  @ Fri, 31 Jan 2025 16:02:34:  3000000 
+INFO  @ Fri, 31 Jan 2025 16:02:35:  4000000 
+INFO  @ Fri, 31 Jan 2025 16:02:36:  5000000 
+INFO  @ Fri, 31 Jan 2025 16:02:36:  6000000 
+INFO  @ Fri, 31 Jan 2025 16:02:37:  7000000 
+INFO  @ Fri, 31 Jan 2025 16:02:38:  8000000 
+INFO  @ Fri, 31 Jan 2025 16:02:39:  9000000 
+INFO  @ Fri, 31 Jan 2025 16:02:39:  10000000 
+INFO  @ Fri, 31 Jan 2025 16:02:40:  11000000 
+INFO  @ Fri, 31 Jan 2025 16:02:41:  12000000 
+INFO  @ Fri, 31 Jan 2025 16:02:41:  13000000 
+INFO  @ Fri, 31 Jan 2025 16:02:42:  14000000 
+INFO  @ Fri, 31 Jan 2025 16:02:43:  15000000 
+INFO  @ Fri, 31 Jan 2025 16:02:43:  16000000 
+INFO  @ Fri, 31 Jan 2025 16:02:44:  17000000 
+INFO  @ Fri, 31 Jan 2025 16:02:45:  18000000 
+INFO  @ Fri, 31 Jan 2025 16:02:46:  19000000 
+INFO  @ Fri, 31 Jan 2025 16:02:46:  20000000 
+INFO  @ Fri, 31 Jan 2025 16:02:49: 20654445 reads have been read. 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1 tag size is determined as 26 bps 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1 tag size = 26.0 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1  total tags in treatment: 11605038 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1 user defined the maximum tags... 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1  tags after filtering in treatment: 11251100 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1  Redundant rate of treatment: 0.03 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1  total tags in control: 20654445 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1 user defined the maximum tags... 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1  tags after filtering in control: 19755002 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1  Redundant rate of control: 0.04 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #1 finished! 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #2 Build Peak Model... 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #2 Skipped... 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #2 Use 200 as fragment length 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #3 Call peaks... 
+INFO  @ Fri, 31 Jan 2025 16:02:49: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Fri, 31 Jan 2025 16:03:19: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Fri, 31 Jan 2025 16:03:19: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... SRR502327_treat_pileup.bdg 
+INFO  @ Fri, 31 Jan 2025 16:03:19: #3   Write bedGraph files for control lambda (after scaling if necessary)... SRR502327_control_lambda.bdg 
+INFO  @ Fri, 31 Jan 2025 16:03:19: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Fri, 31 Jan 2025 16:03:19: #3 Call peaks for each chromosome... 
+INFO  @ Fri, 31 Jan 2025 16:03:48: #4 Write output xls file... /home/abhi39/Projects/CHIPseq/output/4_peak_calling/output/SRR502327_peaks.xls 
+INFO  @ Fri, 31 Jan 2025 16:03:48: #4 Write peak in narrowPeak format file... /home/abhi39/Projects/CHIPseq/output/4_peak_calling/output/SRR502327_peaks.narrowPeak 
+INFO  @ Fri, 31 Jan 2025 16:03:48: #4 Write summits bed file... /home/abhi39/Projects/CHIPseq/output/4_peak_calling/output/SRR502327_summits.bed 
+INFO  @ Fri, 31 Jan 2025 16:03:48: Done! 

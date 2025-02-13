@@ -1,0 +1,19 @@
+PeakID (cmd=annotatePeaks.pl /home/abhi39/Projects/CHIPseq/output/4_peak_calling/output/differential_binding/unique_IFNa30h_fixed.bed hg38)	Chr	Start	End	Strand	Peak Score	Focus Ratio/Region Size	Annotation	Detailed Annotation	Distance to TSS	Nearest PromoterID	Entrez ID	Nearest Unigene	Nearest Refseq	Nearest Ensembl	Gene Name	Gene Alias	Gene Description	Gene Type
+Peak_4277815	chr11	135076690	135076722	+	1000		Intergenic	Intergenic	91354.0	NR_135050	100507548.0		NR_135050		LOC100507548	-	uncharacterized LOC100507548	ncRNA
+Peak_16582623	chr5	181478253	181478356	+	1000		Intergenic	Intergenic	111017.0	NM_001005277	81399.0		NM_001005277	ENSG00000284662	OR4F16	OR1-1|OR7-21	olfactory receptor family 4 subfamily F member 16	protein-coding
+Peak_7764073	chr16	90228215	90228331	+	1000		Intergenic	MSTB1|LTR|ERVL-MaLR	126009.0	NR_126161	100996541.0		NR_126161		FAM157C	-	family with sequence similarity 157 member C	ncRNA
+Peak_13813779	chr3	198235527	198235529	+	1000		Intergenic	Intergenic	82322.0	NR_146164	728262.0		NM_001145248	ENSG00000290937	FAM157A	GTF2IP18	family with sequence similarity 157 member A	ncRNA
+Peak_11237394	chr2	242183590	242183604	+	1000		Intergenic	Intergenic	94964.0	NR_130699	728323.0		NR_024437		LINC01881	-	long intergenic non-protein coding RNA 1881	ncRNA
+Peak_22217295	chrY	57217347	57217441	+	1000		Intergenic	(GT)n|Simple_repeat|Simple_repeat	-2691.0	NR_110561	727856.0		NR_110561		DDX11L16	-	DEAD/H-box helicase 11 like 16 (pseudogene)	pseudo
+Peak_21286365	chr9	138334529	138334554	+	1000		Intergenic	L1M2|LINE|L1	117685.0	NR_146178	100132403.0		NM_001145249		FAM157B	-	family with sequence similarity 157 member B	ncRNA
+Peak_22088258	chrX	156030834	156030857	+	1000		Intergenic	(GT)n|Simple_repeat|Simple_repeat	-2662.0	NR_110561	727856.0		NR_110561		DDX11L16	-	DEAD/H-box helicase 11 like 16 (pseudogene)	pseudo
+Peak_11701213	chr20	64333878	64334077	+	1000		Intergenic	L1PB1|LINE|L1	43592.0	NR_040415	107126285.0		NR_040415		SEPTIN14P20	C20orf69|LINC00266-1|NCRNA00266|NCRNA00266-1|RBRP|SEPT14P20|bA476I15.3	septin 14 pseudogene 20	pseudo
+Peak_21286367	chr9	138334583	138334606	+	1000		Intergenic	L1M2|LINE|L1	117738.0	NR_146178	100132403.0		NM_001145249		FAM157B	-	family with sequence similarity 157 member B	ncRNA
+Peak_11701212	chr20	64333840	64333877	+	1000		Intergenic	L1PB1|LINE|L1	43473.0	NR_040415	107126285.0		NR_040415		SEPTIN14P20	C20orf69|LINC00266-1|NCRNA00266|NCRNA00266-1|RBRP|SEPT14P20|bA476I15.3	septin 14 pseudogene 20	pseudo
+Peak_13813780	chr3	198235530	198235554	+	1000		Intergenic	Intergenic	82336.0	NR_146164	728262.0		NM_001145248	ENSG00000290937	FAM157A	GTF2IP18	family with sequence similarity 157 member A	ncRNA
+Peak_21286368	chr9	138334607	138334698	+	1000		Intergenic	L1M2|LINE|L1	117796.0	NR_146178	100132403.0		NM_001145249		FAM157B	-	family with sequence similarity 157 member B	ncRNA
+Peak_9443616	chr19	58607714	58607716	+	1000		Intergenic	Intergenic	32316.0	NR_026052	65996.0		NM_023939	ENSG00000293115	CENPBD2P	CENPBD1P1	CENPB DNA-binding domains containing 2, pseudogene	pseudo
+Peak_8963800	chr18	80263330	80263352	+	1000		Intergenic	Intergenic	-15827.0	NM_032510	84552.0		NM_032510	ENSG00000178184	PARD6G	PAR-6G|PAR6gamma	par-6 family cell polarity regulator gamma	protein-coding
+Peak_21286366	chr9	138334555	138334582	+	1000		Intergenic	L1M2|LINE|L1	117712.0	NR_146178	100132403.0		NM_001145249		FAM157B	-	family with sequence similarity 157 member B	ncRNA
+Peak_5885069	chr13	114354398	114354424	+	1000		Intergenic	Intergenic	-20463.0	NR_126391	104355150.0		NR_126391		LINC01054	-	long intergenic non-protein coding RNA 1054	ncRNA
+Peak_7105076	chr15	101981259	101981289	+	1000		Intergenic	Intergenic	-2181.0	NR_051985	100288486.0		NR_034090	ENSG00000290824	DDX11L9	-	DEAD/H-box helicase 11 like 9 (pseudogene)	pseudo

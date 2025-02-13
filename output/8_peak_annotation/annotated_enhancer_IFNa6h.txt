@@ -1,0 +1,19 @@
+PeakID (cmd=annotatePeaks.pl /home/abhi39/Projects/CHIPseq/output/4_peak_calling/output/differential_binding/enhancer_IFNa6h.bed hg38 -annStats /home/abhi39/Projects/CHIPseq/output/8_peak_annotation/annotated_enhancer_IFNa6h_stats.txt)	Chr	Start	End	Strand	Peak Score	Focus Ratio/Region Size	Annotation	Detailed Annotation	Distance to TSS	Nearest PromoterID	Entrez ID	Nearest Unigene	Nearest Refseq	Nearest Ensembl	Gene Name	Gene Alias	Gene Description	Gene Type
+Peak_15301113	chr4	190204652	190204655	+	1000	NA	Intergenic	Intergenic	30879	NM_001306068	100288687		NM_001205218	ENSG00000260596	DUX4	DUX4L	double homeobox 4	protein-coding
+Peak_18054987	chr6	170745882	170746051	+	1000	NA	Intergenic	Intergenic	-161274	NM_001199461	5134		NM_002598	ENSG00000071994	PDCD2	RP8|ZMYND7	programmed cell death 2	protein-coding
+Peak_18054984	chr6	170745757	170745790	+	1000	NA	Intergenic	Intergenic	-161081	NM_001199461	5134		NM_002598	ENSG00000071994	PDCD2	RP8|ZMYND7	programmed cell death 2	protein-coding
+Peak_18054986	chr6	170745874	170745880	+	1000	NA	Intergenic	Intergenic	-161185	NM_001199461	5134		NM_002598	ENSG00000071994	PDCD2	RP8|ZMYND7	programmed cell death 2	protein-coding
+Peak_20441886	chr8	145078523	145078579	+	1000	NA	Intergenic	L1P1|LINE|L1	26084	NM_023080	65265		NM_023080	ENSG00000182307	C8orf33	-	chromosome 8 open reading frame 33	protein-coding
+Peak_2204644	chr1	248946449	248946481	+	1000	NA	Intergenic	Intergenic	40222	NM_001017434	267002		NM_170725	ENSG00000185220	PGBD2	-	piggyBac transposable element derived 2	protein-coding
+Peak_6488930	chr14	106883283	106883369	+	1000	NA	Intergenic	TAR1|Satellite|telo	-32327	NR_049827	100847062		NR_049827	ENSG00000265929	MIR5195	-	microRNA 5195	ncRNA
+Peak_3241804	chr10	133787516	133787520	+	1000	NA	Intergenic	Intergenic	-160723	NM_001080998	441581		NM_001080998	ENSG00000225899	FRG2B	-	FSHD region gene 2 family member B	protein-coding
+Peak_5254522	chr12	133265392	133265396	+	1000	NA	Intergenic	Intergenic	-29517	NM_001372060	647589		NM_001191054	ENSG00000227059	ANHX	-	anomalous homeobox	protein-coding
+Peak_18054985	chr6	170745792	170745872	+	1000	NA	Intergenic	Intergenic	-161140	NM_001199461	5134		NM_002598	ENSG00000071994	PDCD2	RP8|ZMYND7	programmed cell death 2	protein-coding
+Peak_19381548	chr7	159336049	159336059	+	1000	NA	Intergenic	Intergenic	-191097	NR_130758	7434		NM_003382	ENSG00000106018	VIPR2	C16DUPq36.3|DUP7q36.3|PACAP-R-3|PACAP-R3|VIP-R-2|VPAC2|VPAC2R|VPCAP2R	vasoactive intestinal peptide receptor 2	protein-coding
+Peak_12501168	chr22	50808528	50808537	+	1000	NA	Intergenic	Intergenic	24803	NR_026982	284942		NM_203302	ENSG00000291064	RPL23AP82	RPL23A_43_1761	ribosomal protein L23a pseudogene 82	pseudo
+Peak_12158978	chr21	46700050	46700076	+	1000	NA	Intergenic	Intergenic	64389	NM_206962	3275		NM_001535	ENSG00000160310	PRMT2	HRMT1L1	protein arginine methyltransferase 2	protein-coding
+Peak_6488927	chr14	106883083	106883123	+	1000	NA	Intergenic	L1MC3|LINE|L1	-32104	NR_049827	100847062		NR_049827	ENSG00000265929	MIR5195	-	microRNA 5195	ncRNA
+Peak_6488929	chr14	106883193	106883281	+	1000	NA	Intergenic	TAR1|Satellite|telo	-32238	NR_049827	100847062		NR_049827	ENSG00000265929	MIR5195	-	microRNA 5195	ncRNA
+Peak_8477748	chr17	83247489	83247507	+	1000	NA	Intergenic	Intergenic	20601	NR_029406	388574		NR_029406	ENSG00000293087	RPL23AP87	-	ribosomal protein L23a pseudogene 87	pseudo
+Peak_6488928	chr14	106883125	106883191	+	1000	NA	Intergenic	L1MC3|LINE|L1	-32159	NR_049827	100847062		NR_049827	ENSG00000265929	MIR5195	-	microRNA 5195	ncRNA
+Peak_6488926	chr14	106883048	106883081	+	1000	NA	Intergenic	L1MC3|LINE|L1	-32065	NR_049827	100847062		NR_049827	ENSG00000265929	MIR5195	-	microRNA 5195	ncRNA

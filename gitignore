@@ -1,0 +1,26 @@
+# Ignore raw sequencing data
+*.fastq
+*.fastq.gz
+
+# Ignore genome reference files
+genome/
+*.fa
+*.fasta
+*.fai
+*.gtf
+*.gff
+
+# Ignore alignment files
+*.sam
+*.bam
+*.bai
+
+# Ignore peak calling files
+*.bedgraph
+*.bigWig
+*.bw
+
+
+# Ignore any hidden system files
+.DS_Store
+Thumbs.db
